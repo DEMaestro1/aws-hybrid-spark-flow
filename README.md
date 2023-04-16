@@ -23,7 +23,7 @@ The project is built in Python and Spark and it has 4 main parts that determine 
 
   1. The Airflow DAG file, [**dagRun.py**](https://github.com/DEMaestro1/aws-hybrid-spark-flow/blob/main/dags/dagRun.py), which orchestrates the data pipeline tasks. The data is downloaded using a normal bash/curl command located in the dagRun.py file itself.
   2. The S3 data loading script is located in [**loadFileToS3.py**](https://github.com/DEMaestro1/aws-hybrid-spark-flow/blob/main/spark/tasks/loadFileToS3.py)
-  3. The data transformation/processing script which uses Spark is located in [**transformationData.py**](https://github.com/DEMaestro1/aws-hybrid-spark-flow/blob/main/spark/tasks/transformationData.py)
+  3. The data transformation/processing script which uses Spark is located in [**transformData.py**](https://github.com/DEMaestro1/aws-hybrid-spark-flow/blob/main/spark/tasks/transformData.py)
   4. The script that loads the data to AWS RDS using Spark can be found in [**loadToRDS.py**](https://github.com/DEMaestro1/aws-hybrid-spark-flow/blob/main/spark/tasks/loadToRDS.py)
 
 ## Scenario
