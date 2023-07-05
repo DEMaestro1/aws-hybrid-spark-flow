@@ -153,4 +153,4 @@ Recreate all the containers with:
 ## License
 You can check out the full license [here](https://github.com/DEMaestro1/aws-hybrid-spark-flow/blob/main/LICENSE)
 
-This project is licensed under the terms of the **GNU** license.
+This project is licensed under the terms of the **GNU GENERAL PUBLIC LICENSE Version 3**.
